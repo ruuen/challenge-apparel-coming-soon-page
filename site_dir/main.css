@@ -104,10 +104,11 @@ body {
 
 .content__form-btn {
   margin-left: -3.6rem;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.65rem;
   border-radius: 25px;
   border: 0;
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  line-height: 0;
   box-shadow: 0px 36px 41px -15px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 .content__form-btn:hover {
