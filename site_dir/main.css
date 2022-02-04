@@ -19,6 +19,7 @@ body {
 }
 
 p,
+span,
 h1,
 h2,
 h3,
@@ -86,6 +87,15 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.content__form--invalid::after {
+  content: url(./images/icon-error.svg);
+  position: absolute;
+  top: 55%;
+  right: 25%;
+  width: 25px;
+  height: 25px;
 }
 
 .content__form-input {
@@ -93,13 +103,16 @@ body {
   padding: 1rem 1.2rem;
   border: 2px solid rgba(206, 151, 151, 0.3);
   background-color: transparent;
-  color: #ce9797;
+  color: #413a3a;
   border-right: 0;
   border-radius: 25px;
 }
 .content__form-input::placeholder {
   color: rgba(206, 151, 151, 0.5);
   font-weight: 400;
+}
+.content__form-input--invalid {
+  border: 2px solid #f96262;
 }
 
 .content__form-btn {
@@ -114,4 +127,15 @@ body {
 .content__form-btn:hover {
   box-shadow: 0px 36px 41px -15px rgba(0, 0, 0, 0.17), 0px 10px 15px -3px rgba(0, 0, 0, 0.17);
   background: #fdc4c4;
+}
+
+.content__form-error {
+  display: none;
+  padding: 1rem 0 0 1.25rem;
+  color: #f96262;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+.content__form-error--visible {
+  display: block;
 }

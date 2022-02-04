@@ -44,6 +44,18 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+
+  &--invalid {
+    &::after {
+      content: url(./images/icon-error.svg);
+      position: absolute;
+      top: 55%;
+      right: 25%;
+      width: 25px;
+      height: 25px;
+    }
+  }
 }
 
 .content__form-input {
@@ -51,13 +63,17 @@ body {
   padding: 1rem 1.2rem;
   border: 2px solid rgba(var.$clr-red-100, 0.3);
   background-color: transparent;
-  color: var.$clr-red-100;
+  color: var.$clr-red-900;
   border-right: 0;
   border-radius: 25px;
 
   &::placeholder {
     color: rgba(var.$clr-red-100, 0.5);
     font-weight: var.$font-weight-primary;
+  }
+
+  &--invalid {
+    border: 2px solid var.$clr-red-500;
   }
 }
 
@@ -73,5 +89,17 @@ body {
   &:hover {
     box-shadow: 0px 36px 41px -15px rgba(0, 0, 0, 0.17), 0px 10px 15px -3px rgba(0, 0, 0, 0.17);
     background: lighten($color: var.$clr-red-500, $amount: 20);
+  }
+}
+
+.content__form-error {
+  display: none;
+  padding: 1rem 0 0 1.25rem;
+  color: var.$clr-red-500;
+  font-size: 0.85em;
+  font-weight: var.$font-weight-primary;
+
+  &--visible {
+    display: block;
   }
 }
