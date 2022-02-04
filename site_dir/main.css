@@ -29,6 +29,10 @@ h6 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+input {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -41,4 +45,72 @@ h6 {
 
 body {
   background: linear-gradient(135deg, white, #fff5f5);
+}
+
+.content__logo {
+  padding: 1.75rem;
+  max-width: 42.5%;
+}
+
+.content__hero-mobile {
+  width: 100%;
+}
+
+.content__container {
+  padding: 4rem 2rem;
+}
+
+.content__heading {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #ce9797;
+  font-weight: 300;
+}
+.content__heading--bold {
+  font-weight: 600;
+  color: #413a3a;
+}
+
+.content__copy {
+  text-align: center;
+  color: #ce9797;
+  padding: 1.25rem 0 0 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.content__form {
+  padding: 2rem 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content__form-input {
+  flex-grow: 1;
+  padding: 1rem 1.2rem;
+  border: 2px solid rgba(206, 151, 151, 0.3);
+  background-color: transparent;
+  color: #ce9797;
+  border-right: 0;
+  border-radius: 25px;
+}
+.content__form-input::placeholder {
+  color: rgba(206, 151, 151, 0.5);
+  font-weight: 400;
+}
+
+.content__form-btn {
+  margin-left: -3.6rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  border: 0;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  box-shadow: 0px 36px 41px -15px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.content__form-btn:hover {
+  box-shadow: 0px 36px 41px -15px rgba(0, 0, 0, 0.17), 0px 10px 15px -3px rgba(0, 0, 0, 0.17);
+  background: #fdc4c4;
 }
