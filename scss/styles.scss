@@ -4,6 +4,10 @@ body {
   background: var.$clr-gradient-grey;
 }
 
+.hero {
+  display: none;
+}
+
 .content__logo {
   padding: 1.75rem;
   max-width: 42.5%;
@@ -51,7 +55,8 @@ body {
       content: url(./images/icon-error.svg);
       position: absolute;
       top: 55%;
-      right: 25%;
+      right: 0;
+      padding: 0 6.5rem 0 0;
       width: 25px;
       height: 25px;
     }
