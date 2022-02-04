@@ -10,18 +10,26 @@
       content="Max Ruuen's solution for the Base Apparel coming soon challenge on frontendmentor.io"
     />
     <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
-    </style>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <!-- Content to markup
-    We're coming soon
-
-    Hello fellow shoppers! We're currently building our new fashion store. 
-    Add your email below to stay up-to-date with announcements and our launch deals.
-
-    Email Address -->
+    <main class="page-container">
+      <div class="content">
+        <img src="./images/logo.svg" alt="" class="content__logo" />
+        <img src="./images/hero-mobile.jpg" alt="" class="content__hero-mobile" />
+        <h1 class="content__heading">We're <span class="content__heading--bold">coming soon</span></h1>
+        <p class="content__copy">
+          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date
+          with announcements and our launch deals.
+        </p>
+        <form action="" class="content__form">
+          <label for="emailAddress" class="visually-hidden">Email Address</label>
+          <input type="email" id="emailAddress" placeholder="Email Address" class="content__form-input" />
+          <button type="submit" class="content__form-btn">
+            <img src="./images/icon-arrow.svg" alt="" class="content__form-btn-icon" />
+          </button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>

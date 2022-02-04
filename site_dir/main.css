@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 *,
 *::before,
 *::after {
@@ -25,4 +26,19 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  background: linear-gradient(135deg, white, #fff5f5);
 }
