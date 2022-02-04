@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-with-scss-and-bem-jWhMLtekL)
 - Live Site URL: [Netlify](https://rd-challenge-apparel-coming-soon.netlify.app/)
 
 ## My process
