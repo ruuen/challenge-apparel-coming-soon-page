@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-with-scss-and-bem-jWhMLtekL)
-- Live Site URL: [Netlify](https://rd-challenge-apparel-coming-soon.netlify.app/)
+- Live Site URL: [Cloudflare Pages](https://mbr-challenge-apparel-coming-soon.pages.dev/)
 
 ## My process
 
@@ -62,5 +62,5 @@ This was a really fun challenge that reminded me how much I love CSS Grid. I do 
 
 ## Author
 
-- Frontend Mentor - [@ruuendigital](https://www.frontendmentor.io/profile/ruuendigital)
+- Frontend Mentor - [@ruuen](https://www.frontendmentor.io/profile/ruuen)
 - Twitter - [@maxruuen](https://www.twitter.com/maxruuen)
